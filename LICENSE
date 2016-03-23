@@ -1,6 +1,9 @@
 The MIT License (MIT)
 
-Copyright (c) 2016 David Cofer
+JetduinoBot for the Jetduino and Jetson TK1/TX1: 
+An open source platform for using Jetson embedded supercomputers and the 
+Jetduino robotics interface board to build visually guided robots.
+Copyright (C) 2016 NeuroRobotic Technologies, LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
