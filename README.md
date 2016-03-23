@@ -15,7 +15,7 @@ First build a catkin workspace for the installation. The directory will be named
 
 1) $ ./createJetduinoBotWS.sh
 
-Second install the TurtleBot software and dependencies
+Second install the software and dependencies
 
 2) $ ./installJetduinoBot.sh
 
