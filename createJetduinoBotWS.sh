@@ -3,10 +3,10 @@
 # JetduinoBot is a ROS robot that uses the NVIDIA Jetson TK1 and the Jetduino
 # interface board.
 # This script assumes that ROS Indigo has already been installed on the Jetson
-mkdir -p ~/JetduinoBot/src
-cd ~/JetduinoBot/src
+mkdir -p ~/jetduinoBot/src
+cd ~/jetduinoBot/src
 catkin_init_workspace
-cd ~/JetduinoBot
+cd ~/jetduinoBot
 catkin_make
 
 
