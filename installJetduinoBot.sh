@@ -7,7 +7,9 @@ _dir="jetduinoBot/src"
 # Install ros software
 sudo apt-get install ros-indigo-rocon-remocon \
 ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs \
-ros-indigo-collada-urdf -y
+ros-indigo-collada-urdf ros-indigo-perception \
+ros-indigo-mrpt-navigation ros-indigo-gmapping \
+ros-indigo-xacro -y
 
 cd ~/jetduinoBot/src
 git clone https://github.com/NeuroRoboticTech/jetduinoBot.git
