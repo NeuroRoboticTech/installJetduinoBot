@@ -5,11 +5,18 @@ _dir="jetduinoBot/src"
 # Check to make sure that the JetduinoBot catkin directory exists
 [ ! -d "$_dir" ] && { echo "Error: Directory $_dir not found.\nPlease run createJetduinoBotWS.sh to create the JetduinoBot catkin workspace."; exit 2; }
 # Install ros software
+
 sudo apt-get install ros-indigo-rocon-remocon \
-ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs \
-ros-indigo-collada-urdf ros-indigo-perception \
-ros-indigo-mrpt-navigation ros-indigo-gmapping \
-ros-indigo-xacro -y
+  ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs \
+  ros-indigo-collada-urdf ros-indigo-perception \
+  ros-indigo-mrpt-navigation ros-indigo-gmapping \
+  ros-indigo-xacro -y
+
+sudo apt-get install ros-indigo-ros-control \
+  ros-indigo-gazebo-ros-control ros-indigo-joint-state-controller \
+  ros-indigo-effort-controllers ros-indigo-joint-trajectory-controller \
+  ros-indigo-moveit* ros-indigo-octomap* ros-indigo-object-recognition-* \
+  ros-indigo-ros-tutorials
 
 cd ~/jetduinoBot/src
 git clone https://github.com/NeuroRoboticTech/jetduinoBot.git
