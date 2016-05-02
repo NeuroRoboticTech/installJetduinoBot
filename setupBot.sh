@@ -1,11 +1,12 @@
 #!/bin/sh
-# These variables tell ROS the TurtleBot configuration;
+# These variables tell ROS the JetduinoBot configuration;
 ##echo export TURTLEBOT_BASE=create2 >> ~/.bashrc
 ##echo export TURTLEBOT_STACKS=circles >> ~/.bashrc
 ##echo export TURTLEBOT_3D_SENSOR=asus_xtion_pro >> ~/.bashrc
 ##echo export TURTLEBOT_SERIAL_PORT=/dev/ttyUSB0 >> ~/.bashrc
 # Use the JetduinoBot development paths before using the default
-##echo source ~/JetduinoBot/devel/setup.bash >> ~/.bashrc
+echo "unset GTK_IM_MODULE" >> ~/.bashrc
+echo source ~/JetduinoBot/devel/setup.bash >> ~/.bashrc
 # The JetduinoBot is the ROS_MASTER
 echo export ROS_MASTER_URI=http://localhost:11311 >> ~/.bashrc
 echo \# Please set the following variable >> ~/.bashrc
